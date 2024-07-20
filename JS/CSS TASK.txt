@@ -1,0 +1,119 @@
+	TASKS
+
+1. types of CSS
+2. way to adopt the CSS
+3. selectors
+4. background properties
+5. display properties
+6. position
+7. way to centerize CSS
+8. media queries  // pending
+9. 
+
+
+
+
+1. types of CSS
+	- inline css
+	- internal css
+	- external css
+
+2. way to adopt the css
+
+* inlilne css
+	- <h1 style="color:blue;text-align:center;">This is a heading</h1>
+	- <p style="color:red;">This is a paragraph.</p>
+
+
+* internal css
+
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body 
+		{
+  			background-color: linen;
+		}
+
+		h1 
+		{
+  			color: maroon;
+  					margin-left: 40px;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>This is a heading</h1>
+	<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+
+*extrenal css
+
+//  HTMl  file  //
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+
+
+//  CSS file  //
+
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+
+
+3. selectors
+	- class
+	- id
+
+4. background properties
+	- background
+	- background-color	
+	- background-size
+	- background-image
+	- background-position
+	- background-repeat
+	- background-origin
+	- background-clip
+	- background-attachment
+
+
+5. display properties
+	- display: none
+ 	- display: inline
+	- display: block
+	- display: inline-block
+
+6. position
+	- static
+	- relative
+	- fixed
+	- absolute
+	- sticky
+
+7. way to centerize css
+	- Instead of applying place-items: center; on the container, you can achieve the same centering by setting place-content: center; on the container or by applying either place-self: center or margin: auto; on the inner item itself.
+
+8. media queries

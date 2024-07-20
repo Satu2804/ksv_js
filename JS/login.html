@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="b1">
+  <section class="s1">
+    <div class="an"> 
+    <h1>Login Here</h1>
+    <form align="center" method="POST" class="register">
+  <div class="l-form">
+        <div class="l-d">
+          <input type="text"  placeholder="Username" required>
+        </div>
+        <div class="l-d">
+          <input type="password" placeholder="password" required>
+        </div>
+        <button  class="lgn-btn" onclick="redirectToLogin()">Login</button>
+        <div class="l-forgot">
+          <a href="#">forgot Password</a> &nbsp;&nbsp;
+          <a href="#">Signup</a>
+        </div>
+      </div>
+</form>
+</div>
+</section>
+<script>
+  function redirectToHome() {
+      window.location.href = "index.html"; // Replace with your login page URL
+  }
+</script>
+</body>
+</html>
